@@ -29,7 +29,7 @@ module Jekyll
     def convert(content)
       setup
       begin
-        Less::Engine.new(content).to_css
+        Less::Parser.new.parse(content).to_css # => Less::Tree
       rescue => e
         puts "Less Exception: #{e.message}"
       end
