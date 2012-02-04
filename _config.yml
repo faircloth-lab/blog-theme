@@ -1,7 +1,7 @@
 # MUST EDIT BELOW
-sitename: the_minimum       #Your site title
-tagline: themes for jekyll  #You should always have a tagline
-url: http://your.site.com   #URL Please
+sitename: faircloth-lab       #Your site title
+tagline:
+url: http://faircloth-lab.org/blog   #URL Please
 ga: UA-XXXXX-X              #Google Analytics ID
 sitemap: GOOGLEWEBMASTER    #Google webmaster verification code
 # END
@@ -10,4 +10,4 @@ pygments:    true
 markdown:    maruku
 permalink:   pretty
 # END
-exclude: LICENSE, README.markdown, Rakefile
+exclude: LICENSE, README.markdown, Rakefile, errata.rst
