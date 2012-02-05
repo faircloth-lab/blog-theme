@@ -1,0 +1,22 @@
+---
+layout: post
+author: brant
+date: 2011-02-11 15:59:51
+categories:
+    - bioinformatics
+    - ec2
+---
+
+I recently came across a situation in which I needed to assemble some reads from a critter that we gathered from a couple of [454][1] sequencing runs.  Unfortunately, the assembly of these runs using [gsAssembler 2.5.3][2] required a bit more RAM than available on our local workstation running a Fedora image in VMware.
+
+So, I decided to assemble the reads using [Amazon EC2][3].  The process was relatively painless once I found an OS image that would boot properly with the instance type I chose (m2.2xlarge.  see [here][4] for a list).  
+
+Here's the steps to follow using a 64-bit Amazon Linux image:
+
+<script src="https://gist.github.com/823271.js"> </script>
+
+[1]: http://www.454.com/
+[2]: http://www.454.com/products-solutions/analysis-tools/gs-de-novo-assembler.asp
+[3]: http://aws.amazon.com/ec2/
+[4]: http://aws.amazon.com/ec2/instance-types/
+
