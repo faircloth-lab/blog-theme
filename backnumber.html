@@ -8,7 +8,7 @@ description: This is backnumber.
 <ul class="posts">
 	{% for post in site.posts offset:10 %}
 	<li>
-	<a href="{{ post.url }}" class="h3">{{ post.title }}</a>
+	<a href="{{ site.baseurl }}{{ post.url }}" class="h3">{{ post.title }}</a>
 	<small>
 		<date>{{ post.date | date_to_string }}</date>
 	</small>
