@@ -1,4 +1,5 @@
-base-url: http://faircloth-lab.org/blog/
+url: http://faircloth-lab.org
+baseurl: /blog
 sitename: faircloth-lab
 tagline: blog
 

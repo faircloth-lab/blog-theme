@@ -11,7 +11,7 @@ title: posts by tag
 		            {% for post in posts %}
 		                    {% if post.title %}
 		                        <li class="article-link">
-								<a href="{{ post.url }}" class="h3">{{ post.title }}</a>
+								<a href="{{ site.baseurl }}{{ post.url }}" class="h3">{{ post.title }}</a>
 								<small>
 									<date>{{ post.date | date_to_string }}</date>
 								</small>

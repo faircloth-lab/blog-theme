@@ -7,10 +7,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="google-site-verification" content="{{ site.sitemap }}">
-	<link href="{{ site.url }}atom.xml" rel="alternate" title="{{ site.sitename }} | {{ site.tagline }}" type="application/atom+xml">
-	<link rel="stylesheet" media="all" href="/blog/css/master.css">
-	<link rel="stylesheet" media="all" href="/blog/css/mediaqueries.css">
-	<script src="/blog/js/modernizr.js"></script>
+	<link href="{{ site.baseurl }}/atom.xml" rel="alternate" title="{{ site.sitename }} | {{ site.tagline }}" type="application/atom+xml">
+	<link rel="stylesheet" media="all" href="{{ site.baseurl }}/css/master.css">
+	<link rel="stylesheet" media="all" href="{{ site.baseurl }}/css/mediaqueries.css">
+	<script src="{{ site.baseurl}}/js/modernizr.js"></script>
 	{% case page.layout %}
 	{% when 'home' %}
 		<title>{{ site.sitename }} | {{ site.tagline }}</title>

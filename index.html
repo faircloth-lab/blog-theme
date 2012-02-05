@@ -7,7 +7,7 @@ description: this is where your meta description for top page.
 <ul class="posts">
 	{% for post in site.posts limit:10 %}
 	<li class="article-link">
-	<a href="{{ post.url }}" class="h3">{{ post.title }}</a>
+	<a href="{{ site.baseurl }}{{ post.url }}" class="h3">{{ post.title }}</a>
 	<small>
 		<date>{{ post.date | date_to_string }}</date>
 	</small>
