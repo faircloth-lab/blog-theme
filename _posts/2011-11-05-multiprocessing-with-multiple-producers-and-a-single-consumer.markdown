@@ -2,7 +2,7 @@
 layout: post
 author: brant
 date: 2011-11-05 10:58:59
-category:
+categories:
     - bioinformatics
     - programming
 ---
