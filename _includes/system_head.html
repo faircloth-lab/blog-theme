@@ -14,7 +14,7 @@
 	{% case page.layout %}
 	{% when 'home' %}
 		<title>{{ site.sitename }} | {{ site.tagline }}</title>
-		<meta name="description" content="{{ page.desctiption }}">
+		<meta name="description" content="{{ page.description }}">
 	{% when 'post' %}
 		<title>{{ page.title }} | {{ site.sitename }} | {{ site.tagline }}</title>
 		<meta name="description" content="{{ content | strip_html | truncatewords: 25 }}">

@@ -1,7 +1,7 @@
-url: http://faircloth-lab.org/blog/
+url: http://faircloth-lab.org/
+root: blog
 sitename: faircloth-lab
 tagline: blog
-
 
 # site setup
 permalink:   /:year/:month/:day/:title.html
