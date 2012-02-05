@@ -1,10 +1,9 @@
-url: http://faircloth-lab.org/
-root: blog
+url: http://faircloth-lab.org/blog/
 sitename: faircloth-lab
 tagline: blog
 
 # site setup
-permalink:   /:year/:month/:day/:title.html
+permalink:   /blog/:year/:month/:day/:title.html
 category_dir: categories
 category_title_prefix: ''
 
