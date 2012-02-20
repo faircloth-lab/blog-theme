@@ -25,6 +25,7 @@
 		left: -252px;
 		max-width: 1048px;
 	}
+	#foot .hasGrid div { width: 480px; }
 }
 	
 /*	Default 8-column layout
@@ -45,7 +46,7 @@
     .pagenation ul,
     .foot_inner {
     	padding: 0 60px 0;
-    	width: 648px;
+    	width: 480px;
     }
     body.post .content h1, body.post .content h2, body.post .content h3, body.post .content h4, body.post .content h5, body.post .content h6 { margin-left: 0; }
     body.post .content p, body.post .content ul, body.post .content ol, body.post .content dl, body.post .content blockquote { margin-left: 0; }
@@ -55,7 +56,7 @@
     }
 
     .the_article .posts li small { display: none; }
-    #foot .hasGrid div { width: 648px; }
+    #foot .hasGrid div { width: 480px; }
 }
 
 /*	5-column layout
